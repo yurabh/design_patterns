@@ -10,12 +10,10 @@ public abstract class HouseTemplate {
         System.out.println("House is built.");
     }
 
-    //default implementation
     private void buildWindows() {
         System.out.println("Building Glass Windows");
     }
 
-    //methods to be implemented by subclasses
     public abstract void buildWalls();
 
     public abstract void buildPillars();
