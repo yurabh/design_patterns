@@ -1,6 +1,6 @@
 package behavioral_design_patterns.template_method;
 
-public class WoodenHouse extends  HouseTemplate{
+public class WoodenHouse extends HouseTemplate {
     @Override
     public void buildWalls() {
         System.out.println("Building Wooden Walls");

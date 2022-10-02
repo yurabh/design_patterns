@@ -7,7 +7,7 @@ public abstract class HouseTemplate {
         buildPillars();
         buildWalls();
         buildWindows();
-        System.out.println("House is built.");
+        System.out.println("Template method House is built: ");
     }
 
     private void buildWindows() {
