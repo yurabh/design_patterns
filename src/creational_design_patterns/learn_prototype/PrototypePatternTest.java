@@ -3,7 +3,7 @@ package creational_design_patterns.learn_prototype;
 import java.util.List;
 
 public class PrototypePatternTest {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args)  {
         Employees employees = new Employees();
         employees.loadData();
 
