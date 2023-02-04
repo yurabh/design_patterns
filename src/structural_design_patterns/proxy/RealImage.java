@@ -12,4 +12,5 @@ public class RealImage implements Image {
     public void showImage() {
         System.out.println("Show Image:" + fileName);
     }
+    
 }
