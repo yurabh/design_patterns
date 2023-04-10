@@ -1,8 +1,8 @@
 package behavioral_design_patterns.strategy;
 
 public class Item {
-    private String upcCode;
-    private int price;
+    private final String upcCode;
+    private final int price;
 
     public Item(String upc, int cost) {
         this.upcCode = upc;
