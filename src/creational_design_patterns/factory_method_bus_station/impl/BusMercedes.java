@@ -1,4 +1,6 @@
-package creational_design_patterns.learn_abstract_method_bus_station_example;
+package creational_design_patterns.factory_method_bus_station.impl;
+
+import creational_design_patterns.factory_method_bus_station.Transportable;
 
 public class BusMercedes implements Transportable {
 

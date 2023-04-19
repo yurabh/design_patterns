@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_abstract_method_bus_station_example;
+package creational_design_patterns.factory_method_bus_station;
 
 public abstract class BusStation {
 

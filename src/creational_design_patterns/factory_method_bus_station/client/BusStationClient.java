@@ -1,4 +1,8 @@
-package creational_design_patterns.learn_abstract_method_bus_station_example;
+package creational_design_patterns.factory_method_bus_station.client;
+
+import creational_design_patterns.factory_method_bus_station.BusStation;
+import creational_design_patterns.factory_method_bus_station.impl.BuyABusFiat;
+import creational_design_patterns.factory_method_bus_station.impl.BuyABusMercedes;
 
 import java.util.Scanner;
 
