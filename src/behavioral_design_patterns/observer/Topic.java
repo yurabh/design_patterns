@@ -3,13 +3,13 @@ package behavioral_design_patterns.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyTopic implements Subject {
+public class Topic implements Subject {
     private final List<Observer> observers;
     private String message;
     private boolean changed;
     private final Object mutex = new Object();
 
-    public MyTopic() {
+    public Topic() {
         this.observers = new ArrayList<>();
     }
 

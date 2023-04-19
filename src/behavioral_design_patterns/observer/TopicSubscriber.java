@@ -1,10 +1,10 @@
 package behavioral_design_patterns.observer;
 
-public class MyTopicSubscriber implements Observer {
+public class TopicSubscriber implements Observer {
     private final String name;
     private Subject topic;
 
-    public MyTopicSubscriber(String name) {
+    public TopicSubscriber(String name) {
         this.name = name;
     }
 
