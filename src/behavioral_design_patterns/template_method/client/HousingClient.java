@@ -1,4 +1,8 @@
-package behavioral_design_patterns.template_method;
+package behavioral_design_patterns.template_method.client;
+
+import behavioral_design_patterns.template_method.GlassHouse;
+import behavioral_design_patterns.template_method.HouseTemplate;
+import behavioral_design_patterns.template_method.WoodenHouse;
 
 public class HousingClient {
     public static void main(String[] args) {
