@@ -1,4 +1,9 @@
-package behavioral_design_patterns.mediator;
+package behavioral_design_patterns.mediator.client;
+
+import behavioral_design_patterns.mediator.ChatMediator;
+import behavioral_design_patterns.mediator.impl.ChatMediatorImpl;
+import behavioral_design_patterns.mediator.domain.User;
+import behavioral_design_patterns.mediator.impl.UserImpl;
 
 public class ChatClient {
     public static void main(String[] args) {

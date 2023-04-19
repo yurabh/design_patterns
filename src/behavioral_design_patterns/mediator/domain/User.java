@@ -1,4 +1,6 @@
-package behavioral_design_patterns.mediator;
+package behavioral_design_patterns.mediator.domain;
+
+import behavioral_design_patterns.mediator.ChatMediator;
 
 public abstract class User {
     protected ChatMediator mediator;

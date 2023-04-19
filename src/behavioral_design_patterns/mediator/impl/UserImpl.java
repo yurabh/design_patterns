@@ -1,4 +1,7 @@
-package behavioral_design_patterns.mediator;
+package behavioral_design_patterns.mediator.impl;
+
+import behavioral_design_patterns.mediator.ChatMediator;
+import behavioral_design_patterns.mediator.domain.User;
 
 public class UserImpl extends User {
     public UserImpl(ChatMediator mediator, String name) {
