@@ -6,11 +6,11 @@ public class CreditCardStrategy implements PaymentStrategy {
     private final String cvv;
     private final String dateOfExpiry;
 
-    public CreditCardStrategy(String nm, String ccNum, String cvv, String expiryDate) {
-        this.name = nm;
-        this.cardNumber = ccNum;
+    public CreditCardStrategy(String name, String cardNumber, String cvv, String dateOfExpire) {
+        this.name = name;
+        this.cardNumber = cardNumber;
         this.cvv = cvv;
-        this.dateOfExpiry = expiryDate;
+        this.dateOfExpiry = dateOfExpire;
     }
 
     @Override

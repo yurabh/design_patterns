@@ -4,8 +4,8 @@ public class Item {
     private final String upcCode;
     private final int price;
 
-    public Item(String upc, int cost) {
-        this.upcCode = upc;
+    public Item(String upcCode, int cost) {
+        this.upcCode = upcCode;
         this.price = cost;
     }
 

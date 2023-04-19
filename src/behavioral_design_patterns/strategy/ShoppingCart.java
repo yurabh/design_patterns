@@ -18,7 +18,7 @@ public class ShoppingCart {
         this.items.remove(item);
     }
 
-    public int calculateTotal() {
+    private int calculateTotal() {
         int sum = 0;
         for (Item item : items) {
             sum += item.getPrice();
