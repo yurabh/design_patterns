@@ -1,6 +1,11 @@
-package behavioral_design_patterns.strategy;
+package behavioral_design_patterns.strategy.client;
 
-public class ShoppingCartTest {
+import behavioral_design_patterns.strategy.impl.CreditCardStrategy;
+import behavioral_design_patterns.strategy.impl.PaypalStrategy;
+import behavioral_design_patterns.strategy.ShoppingCart;
+import behavioral_design_patterns.strategy.domain.Item;
+
+public class ShoppingCartClient {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
 

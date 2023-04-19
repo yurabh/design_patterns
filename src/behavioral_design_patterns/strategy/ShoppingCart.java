@@ -1,5 +1,7 @@
 package behavioral_design_patterns.strategy;
 
+import behavioral_design_patterns.strategy.domain.Item;
+
 import java.util.ArrayList;
 import java.util.List;
 

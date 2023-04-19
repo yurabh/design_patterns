@@ -1,4 +1,4 @@
-package behavioral_design_patterns.strategy;
+package behavioral_design_patterns.strategy.domain;
 
 public class Item {
     private final String upcCode;
