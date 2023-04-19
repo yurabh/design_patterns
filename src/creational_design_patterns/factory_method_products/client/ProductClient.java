@@ -1,8 +1,12 @@
-package creational_design_patterns.learn_abstract_method_products_example;
+package creational_design_patterns.factory_method_products.client;
+
+import creational_design_patterns.factory_method_products.Creator;
+import creational_design_patterns.factory_method_products.impl.ConcreteCreateA;
+import creational_design_patterns.factory_method_products.impl.ConcreteCreateB;
 
 import java.util.Scanner;
 
-public class RunnerProduct {
+public class ProductClient {
     private static Creator creator;
 
     public static void useProducts(String type) {

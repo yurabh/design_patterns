@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_abstract_method_furniture_example;
+package creational_design_patterns.factory_method_furniture;
 
 import java.util.Scanner;
 

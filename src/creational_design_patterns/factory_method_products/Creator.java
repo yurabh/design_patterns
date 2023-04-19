@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_abstract_method_products_example;
+package creational_design_patterns.factory_method_products;
 
 public abstract class Creator {
 
