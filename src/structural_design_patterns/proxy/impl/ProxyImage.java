@@ -1,11 +1,13 @@
-package structural_design_patterns.proxy;
+package structural_design_patterns.proxy.impl;
+
+import structural_design_patterns.proxy.Image;
 
 public class ProxyImage implements Image {
     private RealImage img;
     private final String fileName;
 
-    public ProxyImage(String strFileName) {
-        this.fileName = strFileName;
+    public ProxyImage(String fileName) {
+        this.fileName = fileName;
     }
 
     @Override
