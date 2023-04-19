@@ -1,6 +1,11 @@
-package behavioral_design_patterns.state;
+package behavioral_design_patterns.state.client;
 
-public class TVRemote {
+import behavioral_design_patterns.state.State;
+import behavioral_design_patterns.state.TVContext;
+import behavioral_design_patterns.state.TVStartState;
+import behavioral_design_patterns.state.TVStopState;
+
+public class TVClient {
     public static void main(String[] args) {
         TVContext context = new TVContext();
         State tvStartState = new TVStartState();
