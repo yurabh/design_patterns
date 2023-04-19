@@ -1,7 +1,7 @@
-package creational_design_patterns.learn_dao;
+package creational_design_patterns.dao;
 
-import creational_design_patterns.learn_dao.domain.Address;
-import creational_design_patterns.learn_dao.factory.DAOFactory;
+import creational_design_patterns.dao.domain.Address;
+import creational_design_patterns.dao.factory.DAOFactory;
 
 public class TestDAO {
 

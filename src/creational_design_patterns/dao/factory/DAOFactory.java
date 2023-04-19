@@ -1,9 +1,9 @@
-package creational_design_patterns.learn_dao.factory;
+package creational_design_patterns.dao.factory;
 
-import creational_design_patterns.learn_dao.impl_factory.MySQLDAOFactory;
-import creational_design_patterns.learn_dao.impl_factory.OracleDAOFactory;
-import creational_design_patterns.learn_dao.inteface.AddressDAO;
-import creational_design_patterns.learn_dao.inteface.StudentDAO;
+import creational_design_patterns.dao.impl_factory.MySQLDAOFactory;
+import creational_design_patterns.dao.impl_factory.OracleDAOFactory;
+import creational_design_patterns.dao.inteface.AddressDAO;
+import creational_design_patterns.dao.inteface.StudentDAO;
 
 public abstract class DAOFactory {
 
