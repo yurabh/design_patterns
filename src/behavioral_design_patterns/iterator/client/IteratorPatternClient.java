@@ -1,6 +1,12 @@
-package behavioral_design_patterns.iterator;
+package behavioral_design_patterns.iterator.client;
 
-public class IteratorPatternTest {
+import behavioral_design_patterns.iterator.ChannelCollection;
+import behavioral_design_patterns.iterator.ChannelIterator;
+import behavioral_design_patterns.iterator.domain.ChannelTypeEnum;
+import behavioral_design_patterns.iterator.domain.Channel;
+import behavioral_design_patterns.iterator.impl.ChannelCollectionImpl;
+
+public class IteratorPatternClient {
     public static void main(String[] args) {
         ChannelCollection channels = populateChannels();
         ChannelIterator baseIterator = channels.iterator(ChannelTypeEnum.ALL);

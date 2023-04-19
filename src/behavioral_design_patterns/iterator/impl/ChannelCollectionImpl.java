@@ -1,4 +1,9 @@
-package behavioral_design_patterns.iterator;
+package behavioral_design_patterns.iterator.impl;
+
+import behavioral_design_patterns.iterator.ChannelCollection;
+import behavioral_design_patterns.iterator.ChannelIterator;
+import behavioral_design_patterns.iterator.domain.ChannelTypeEnum;
+import behavioral_design_patterns.iterator.domain.Channel;
 
 import java.util.ArrayList;
 import java.util.List;

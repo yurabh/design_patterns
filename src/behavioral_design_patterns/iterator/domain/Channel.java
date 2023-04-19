@@ -1,4 +1,4 @@
-package behavioral_design_patterns.iterator;
+package behavioral_design_patterns.iterator.domain;
 
 public class Channel {
     private final double frequency;
