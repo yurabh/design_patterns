@@ -1,4 +1,4 @@
-package behavioral_design_patterns.chain_of_rensponsebility;
+package behavioral_design_patterns.chain_of_rensponsebility.domain;
 
 public class Currency {
     private final int amount;

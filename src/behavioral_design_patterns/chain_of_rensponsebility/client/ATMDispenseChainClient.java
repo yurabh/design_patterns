@@ -1,13 +1,19 @@
-package behavioral_design_patterns.chain_of_rensponsebility;
+package behavioral_design_patterns.chain_of_rensponsebility.client;
+
+import behavioral_design_patterns.chain_of_rensponsebility.*;
+import behavioral_design_patterns.chain_of_rensponsebility.domain.Currency;
+import behavioral_design_patterns.chain_of_rensponsebility.impl.Dollar10Dispenser;
+import behavioral_design_patterns.chain_of_rensponsebility.impl.Dollar20Dispenser;
+import behavioral_design_patterns.chain_of_rensponsebility.impl.Dollar50Dispenser;
 
 import java.util.Scanner;
 
-public class ATMDispenseChain {
+public class ATMDispenseChainClient {
     private final DispenseChain c1;
     private final DispenseChain c2;
     private final DispenseChain c3;
 
-    public ATMDispenseChain() {
+    public ATMDispenseChainClient() {
         this.c1 = new Dollar50Dispenser();
         this.c2 = new Dollar20Dispenser();
         this.c3 = new Dollar10Dispenser();
@@ -17,7 +23,7 @@ public class ATMDispenseChain {
     }
 
     public static void main(String[] args) {
-        ATMDispenseChain atmDispenser = new ATMDispenseChain();
+        ATMDispenseChainClient atmDispenser = new ATMDispenseChainClient();
         while (true) {
             int amount;
             System.out.println("Enter amount to dispense: \n");
