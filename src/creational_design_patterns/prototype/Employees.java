@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_prototype;
+package creational_design_patterns.prototype;
 
 import java.util.ArrayList;
 import java.util.List;

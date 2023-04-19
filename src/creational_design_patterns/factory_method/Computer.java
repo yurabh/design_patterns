@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_factory_pattern;
+package creational_design_patterns.factory_method;
 
 public abstract class Computer {
 

@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_singelton;
+package creational_design_patterns.singelton;
 
 public class LazyInitializedSingleton {
     private static LazyInitializedSingleton instance;

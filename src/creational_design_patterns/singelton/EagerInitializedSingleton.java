@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_singelton;
+package creational_design_patterns.singelton;
 
 public class EagerInitializedSingleton {
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();

@@ -1,6 +1,9 @@
-package creational_design_patterns.learn_factory_pattern;
+package creational_design_patterns.factory_method.client;
 
-public class TestFactory {
+import creational_design_patterns.factory_method.Computer;
+import creational_design_patterns.factory_method.ComputerFactory;
+
+public class FactoryClient {
     public static void main(String[] args) {
         Computer pc = ComputerFactory.getComputer("pc", "2 GB", "500 GB", "2.4 GHz");
         Computer server = ComputerFactory.getComputer("server", "16 GB", "1 TB", "2.9 GHz");

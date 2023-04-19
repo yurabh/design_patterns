@@ -63,35 +63,22 @@ public class ProductDesc implements Serializable {
 
     public static boolean validateItem(ProductDesc productDesc) {
         LocalDate localDate = productDesc.getDateOf();
-        if (productDesc.dataOfEndDate.getYear() > localDate.getYear()) {
-            return true;
-        }
-        return false;
+        return productDesc.dataOfEndDate.getYear() > localDate.getYear();
     }
 
 
     public boolean equalsName(String name) {
-        if (description.equals(name)) {
-            return true;
-        }
-        return false;
+        return description.equals(name);
     }
 
 
     public boolean equalsId(int id) {
-        if (itemId == id) {
-            return true;
-        }
-        return false;
+        return itemId == id;
     }
 
 
     public static boolean verifyProduct(ProductDesc productDesc) {
-        if (productDesc.description != null && productDesc.itemId != 0 && productDesc.price != 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return productDesc.description != null && productDesc.itemId != 0 && productDesc.price != 0;
     }
 
 

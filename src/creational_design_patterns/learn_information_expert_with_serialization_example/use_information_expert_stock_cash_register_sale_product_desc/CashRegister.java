@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CashRegister {
 
-    private static List<Sale> sales = new ArrayList<>();
+    private static final List<Sale> sales = new ArrayList<>();
 
     public static void addCheck(Sale sale) {
         if (CashRegister.verifySale(sale)) {
@@ -18,10 +18,7 @@ public class CashRegister {
 
 
     public static boolean verifySale(Sale sale) {
-        if (sale.verifyItems()) {
-            return true;
-        }
-        return false;
+        return sale.verifyItems();
     }
 
 

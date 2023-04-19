@@ -1,12 +1,14 @@
-package creational_design_patterns.learn_factory_pattern;
+package creational_design_patterns.factory_method.impl;
 
-public class Pc extends Computer {
+import creational_design_patterns.factory_method.Computer;
+
+public class Server extends Computer {
 
     private final String ram;
     private final String hdd;
     private final String cpu;
 
-    public Pc(String ram, String hdd, String cpu) {
+    public Server(String ram, String hdd, String cpu) {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;

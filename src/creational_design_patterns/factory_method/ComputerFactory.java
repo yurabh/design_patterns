@@ -1,4 +1,7 @@
-package creational_design_patterns.learn_factory_pattern;
+package creational_design_patterns.factory_method;
+
+import creational_design_patterns.factory_method.impl.Pc;
+import creational_design_patterns.factory_method.impl.Server;
 
 public class ComputerFactory {
     public static Computer getComputer(String type, String ram, String hdd, String cpu) {
