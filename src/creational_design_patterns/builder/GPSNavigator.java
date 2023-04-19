@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_builder;
+package creational_design_patterns.builder;
 
 public class GPSNavigator {
     private String route;

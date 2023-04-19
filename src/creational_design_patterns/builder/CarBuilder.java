@@ -1,6 +1,6 @@
-package creational_design_patterns.learn_builder;
+package creational_design_patterns.builder;
 
-public class CarManualBuilder implements Builder {
+public class CarBuilder implements Builder {
 
     private CarType type;
     private int seats;
@@ -9,8 +9,16 @@ public class CarManualBuilder implements Builder {
     private TripComputer tripComputer;
     private GPSNavigator gpsNavigator;
 
-    public Manual getResult() {
-        return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    public Car getResult() {
+        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    }
+
+    public CarType getType() {
+        return type;
+    }
+
+    public void setType(CarType type) {
+        this.type = type;
     }
 
     @Override

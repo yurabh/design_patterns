@@ -1,6 +1,6 @@
-package creational_design_patterns.learn_builder_second_example;
+package creational_design_patterns.builder_second_example;
 
-public class TestBuilderPattern {
+public class BuilderPatternClient {
     public static void main(String[] args) {
         Computer comp = new Computer.ComputerBuilder("500 GB", "2 GB")
                 .setBluetoothEnabled(true)
