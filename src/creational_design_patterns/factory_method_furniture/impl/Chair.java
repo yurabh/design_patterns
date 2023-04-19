@@ -1,4 +1,6 @@
-package creational_design_patterns.factory_method_furniture;
+package creational_design_patterns.factory_method_furniture.impl;
+
+import creational_design_patterns.factory_method_furniture.Creatable;
 
 public class Chair implements Creatable {
 

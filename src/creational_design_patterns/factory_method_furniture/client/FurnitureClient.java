@@ -1,8 +1,12 @@
-package creational_design_patterns.factory_method_furniture;
+package creational_design_patterns.factory_method_furniture.client;
+
+import creational_design_patterns.factory_method_furniture.impl.ChairFactory;
+import creational_design_patterns.factory_method_furniture.Factory;
+import creational_design_patterns.factory_method_furniture.impl.TableFactory;
 
 import java.util.Scanner;
 
-public class ProductionDemo {
+public class FurnitureClient {
 
     private static Factory create;
 
