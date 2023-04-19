@@ -1,4 +1,6 @@
-package structural_design_patterns.decorator;
+package structural_design_patterns.decorator.impl;
+
+import structural_design_patterns.decorator.Car;
 
 public class LuxuryCar extends CarDecorator {
     public LuxuryCar(Car c) {
