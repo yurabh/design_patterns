@@ -1,4 +1,8 @@
-package creational_design_patterns.learn_abstract_factory_furniture_example;
+package creational_design_patterns.abstract_factory_furniture.client;
+
+import creational_design_patterns.abstract_factory_furniture.impl.HighTechFactory;
+import creational_design_patterns.abstract_factory_furniture.impl.ModernFactory;
+import creational_design_patterns.abstract_factory_furniture.impl.PopArtFactory;
 
 import java.util.Scanner;
 

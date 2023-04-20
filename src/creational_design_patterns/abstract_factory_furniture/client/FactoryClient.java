@@ -1,10 +1,15 @@
-package creational_design_patterns.learn_abstract_factory_furniture_example;
+package creational_design_patterns.abstract_factory_furniture.client;
+
+import creational_design_patterns.abstract_factory_furniture.Chair;
+import creational_design_patterns.abstract_factory_furniture.FurnitureFactory;
+import creational_design_patterns.abstract_factory_furniture.Sofa;
+import creational_design_patterns.abstract_factory_furniture.Table;
 
 public class FactoryClient {
 
-    private Chair chair;
-    private Table table;
-    private Sofa sofa;
+    private final Chair chair;
+    private final Table table;
+    private final Sofa sofa;
 
     public FactoryClient(FurnitureFactory furnitureFactory) {
         this.chair = furnitureFactory.createChair();
