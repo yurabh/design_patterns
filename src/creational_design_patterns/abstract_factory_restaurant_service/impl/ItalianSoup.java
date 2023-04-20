@@ -1,4 +1,6 @@
-package creational_design_patterns.learn_abstract_factory_restaurant_service_example;
+package creational_design_patterns.abstract_factory_restaurant_service.impl;
+
+import creational_design_patterns.abstract_factory_restaurant_service.Soup;
 
 public class ItalianSoup implements Soup {
 

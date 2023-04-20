@@ -1,4 +1,8 @@
-package creational_design_patterns.learn_abstract_factory_restaurant_service_example;
+package creational_design_patterns.abstract_factory_restaurant_service.client;
+
+import creational_design_patterns.abstract_factory_restaurant_service.impl.UkrainianKitchen;
+import creational_design_patterns.abstract_factory_restaurant_service.impl.ItalianKitchen;
+import creational_design_patterns.abstract_factory_restaurant_service.impl.PolishKitchen;
 
 import java.util.Scanner;
 
