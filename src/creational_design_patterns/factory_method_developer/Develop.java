@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_abstract_method_developer_example;
+package creational_design_patterns.factory_method_developer;
 
 public interface Develop {
 

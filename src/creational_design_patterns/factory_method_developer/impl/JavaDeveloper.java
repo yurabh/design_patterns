@@ -1,4 +1,6 @@
-package creational_design_patterns.learn_abstract_method_developer_example;
+package creational_design_patterns.factory_method_developer.impl;
+
+import creational_design_patterns.factory_method_developer.Develop;
 
 public class JavaDeveloper implements Develop {
 
