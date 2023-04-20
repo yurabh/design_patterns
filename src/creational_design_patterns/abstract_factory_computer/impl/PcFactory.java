@@ -1,4 +1,7 @@
-package creational_design_patterns.learn_abstract_factory_computer;
+package creational_design_patterns.abstract_factory_computer.impl;
+
+import creational_design_patterns.abstract_factory_computer.Computer;
+import creational_design_patterns.abstract_factory_computer.ComputerAbstractFactory;
 
 public class PcFactory implements ComputerAbstractFactory {
     private final String ram;
