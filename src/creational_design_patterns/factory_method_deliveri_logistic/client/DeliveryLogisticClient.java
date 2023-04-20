@@ -1,8 +1,12 @@
-package creational_design_patterns.learn_abstract_method_deliveri_logistic_example;
+package creational_design_patterns.factory_method_deliveri_logistic.client;
+
+import creational_design_patterns.factory_method_deliveri_logistic.DeliveryLogistic;
+import creational_design_patterns.factory_method_deliveri_logistic.impl.DoveLogistic;
+import creational_design_patterns.factory_method_deliveri_logistic.impl.DroneLogistic;
 
 import java.util.Scanner;
 
-public class LogisticDemo {
+public class DeliveryLogisticClient {
 
     private static DeliveryLogistic deliveryLogistic;
 

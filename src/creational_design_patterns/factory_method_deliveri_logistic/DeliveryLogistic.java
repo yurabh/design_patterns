@@ -1,4 +1,4 @@
-package creational_design_patterns.learn_abstract_method_deliveri_logistic_example;
+package creational_design_patterns.factory_method_deliveri_logistic;
 
 public abstract class DeliveryLogistic {
 
